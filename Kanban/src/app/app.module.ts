@@ -49,14 +49,12 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { HeaderComponent } from './views/header/header.component';
-import { BoardComponent } from './views/board/board.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TarefaComponent,
     HeaderComponent,
-    BoardComponent,
   ],
   imports: [
     BrowserModule,
